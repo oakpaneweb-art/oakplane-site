@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work | Oakplane</title>
+<meta name="description" content="Concept projects by Oakplane: how I design and build websites for small businesses.">
+<meta name="theme-color" content="#010514">
+<meta property="og:title" content="Work | Oakplane">
+<meta property="og:description" content="Concept projects by Oakplane: how I design and build websites for small businesses.">
+<meta property="og:image" content="assets/oakplane-logo.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+/* marks the page as "JS on" and covers it until the pixel transition starts (no flash of content) */
+(function (d) {
+  var h = d.documentElement; h.className += ' js';
+  try { if (!matchMedia('(prefers-reduced-motion: reduce)').matches) h.className += ' cover-on'; } catch (e) {}
+})(document);
+</script>
+</head>
+<body data-page="work">
+<a class="skip" href="#main">Skip to content</a>
+<header class="menubar">
+  <a class="mb-brand" href="index.html" aria-label="Oakplane, home"><img src="assets/oakplane-logo-small.png" alt=""><span>Oakplane OS</span></a>
+  <span class="mb-path" aria-hidden="true">C:\OAKPLANE\WORK</span>
+  <span class="mb-status"><i class="dot" aria-hidden="true"></i>Open for projects</span>
+  <button class="mb-btn" type="button" data-sound aria-pressed="false"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mute"/></svg><span>Sound off</span></button>
+  <time class="mb-clock" data-clock aria-hidden="true">--:--</time>
+</header>
+<main id="main" class="desk">
+<div class="stack">
+
+<section class="win reveal" aria-labelledby="h-work">
+  <div class="win-bar"><span class="win-btns" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">my-files</span></div>
+  <div class="win-body">
+    <p class="kicker">Portfolio</p>
+    <h1 id="h-work">My files.</h1>
+    <p class="lead">Real client projects will appear here as they launch.</p>
+    <div style="margin-top:40px;display:grid;justify-items:center;gap:16px;text-align:center">
+      <svg class="ico" style="width:96px;height:96px" aria-hidden="true" focusable="false"><use href="#i-work"/></svg>
+      <h3 style="margin:0">Projects loading...</h3>
+      <div class="pbar" aria-hidden="true" style="width:min(360px,100%);margin:0"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
+      <p style="margin:0">My first projects are on the way. This page will fill up as I finish them.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS: when a client gives permission, copy this block and add their words.
+<section class="win reveal"> ... </section> -->
+<section class="win reveal" aria-labelledby="h-guest">
+  <div class="win-bar"><span class="win-btns" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">guestbook.txt</span></div>
+  <div class="win-body">
+    <h2 id="h-guest">No reviews yet.</h2>
+    <p>The first real client reviews will be pinned here. Yours could be the first.</p>
+  </div>
+</section>
+
+<section class="win reveal" aria-labelledby="h-cta">
+  <div class="win-bar"><span class="win-btns" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">start-here.exe</span></div>
+  <div class="win-body center">
+    <h2 id="h-cta">Want your site here?</h2>
+    <p class="lead">Tell me about your business and let's build something people remember.</p>
+    <div class="btn-row">
+      <a class="btn" href="contact.html#message"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Get a quote</a>
+      <a class="btn btn-ghost" href="contact.html#book" data-calendly><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Book a call</a>
+    </div>
+  </div>
+</section>
+
+</div>
+<footer class="foot">
+  <span>&copy; <span data-year>2026</span> Oakplane &middot; Madrid</span>
+  <a href="mailto:oakpaneweb@gmail.com">oakpaneweb@gmail.com</a>
+  <button class="linkbtn" type="button" data-privacy>Privacy &amp; cookies</button>
+</footer>
+</main>
+<dialog id="project-dialog" class="win-dialog" aria-labelledby="pd-title">
+  <div class="win">
+    <div class="win-bar"><span class="win-btns" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title" id="pd-file">project.exe</span>
+      <form method="dialog"><button class="x" aria-label="Close">X</button></form></div>
+    <div class="win-body">
+      <div class="thumb" id="pd-thumb" role="img"></div>
+      <div class="pd-head"><h2 id="pd-title"></h2><b class="stamp">Concept project</b></div>
+      <p class="pd-type" id="pd-type"></p>
+      <p id="pd-text"></p>
+      <ul class="tags" id="pd-tags"></ul>
+      <div class="btn-row"><a class="btn" href="contact.html#message"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Want a site like this?</a></div>
+    </div>
+  </div>
+</dialog>
+<nav class="dock" aria-label="Main navigation">
+  <a class="dock-item" href="index.html"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span class="dock-label">Home</span></a>
+  <a class="dock-item" href="services.html"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-services"/></svg><span class="dock-label">Services</span></a>
+  <a class="dock-item" href="work.html" aria-current="page"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-work"/></svg><span class="dock-label">Work</span></a>
+  <a class="dock-item" href="about.html"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-about"/></svg><span class="dock-label">About</span></a>
+  <a class="dock-item" href="contact.html"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg><span class="dock-label">Contact</span></a>
+</nav>
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
