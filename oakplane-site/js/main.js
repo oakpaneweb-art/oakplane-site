@@ -8,8 +8,8 @@
 
   /* ----- EDIT THESE ----------------------------------------- */
   var OAK = {
-    email: 'oakpaneweb@gmail.com',
-    // Get a free key at https://web3forms.com (enter oakpaneweb@gmail.com) and paste it here:
+    email: 'hello@oakplane.com',
+    // Get a free key at https://web3forms.com (enter hello@oakplane.com) and paste it here:
     web3formsKey: '8246d99b-1bf6-448d-86c2-6b3146ca8b80',
     // Paste your Calendly / Cal.com link here when you have one, e.g. 'https://calendly.com/your-name/intro'
     calendly: ''
